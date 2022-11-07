@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --branco: #FFFFFF;
+    --laranja-claro: #FDC180;
+    --laranja-medio: #F7941D;
+    --preto: #000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--laranja-claro);
+    padding: 1rem;
+}
+body{
+    color: var(--laranja-medio);
+    background-color: var(--branco);
+}
+.md-48{
+    font-size: 48px;
+    color: var(--preto);
+}
+
+.conteudo{
+    margin: 16px;
+    border-radius: 18px;
+}
+.img1{
+    width: 100%;
+    border-radius: 18px;
+}
+.img2{
+    width: 100%;
+    border-radius: 18px;
+}
+.img3{
+    width: 100%;
+    border-radius: 18px;
+}
+.senac{
+    width: 22%;
+    justify-content: left;
+    display: flex;
+}
+nav{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 90vh;
+        position: absolute;
+        right: 0;
+        padding: 35% 24px 10% 0;    
+        text-align: right;
+        background-color: var(--laranja-claro);
+}
+#botao_fechar{
+    margin-top: 48px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 24px;
+    color: var(--preto);
+}
+h1{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+h2{
+    font-size: 1.2rem;
+    padding: 15px;
+}
+.card1{
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 0;
+    margin: 16px;
+}
+.card1 p{
+    padding: 1rem;
+    line-height: 1.2rem;  
+}
+.card2{
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 0;
+    margin: 16px;
+}
+.card2 p{
+    padding: 1rem;
+    line-height: 1.2rem;  
+}
+.card3{
+    background-color: var(--laranja-claro);
+    color: var(--preto);
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 0;
+    margin: 16px;
+}
+.card3 p{
+    padding: 1rem;
+    line-height: 1.2rem;
+    margin: 10% 0;
+   
+}
+.rodape{
+    color:var(--preto);
+    justify-content: space-between;
+    background-color: var(--laranja-claro);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+    line-height: 1.5rem;
+}
+
+
+@media screen and (min-width: 1024px)
+{
+
+    #botao_menu{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        position: relative;
+        z-index: 0;
+        width: auto;
+        padding: 0;
+        text-align: right;
+        background-color: var(--laranja-claro);
+    }
+    .img1{
+        display: flex;
+        width: 50%;
+        
+  }
+  .primeiro_titulo{
+    display: left;
+    
+  }
+    
+  
+    .img2{
+        display: flex;
+        width: 50%;
+
+    }
+   
+    li{
+        display: inline;
+        margin-left: 24px;
+    }
+
+    #botao_fechar{
+        display: none;
+    }
+    
+
+    .card_servico{
+        text-align: left;
+    }
+
+    .card_servico_conteudo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+{
